@@ -618,6 +618,29 @@
 		8B542CD4174A0C2500958D97 /* playout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8352981748FEA1008C062B /* playout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B542CD5174A0C2500958D97 /* plruns.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8352991748FEA1008C062B /* plruns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B542CD6174A0C2500958D97 /* RunArrays.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B83529A1748FEA1008C062B /* RunArrays.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B542CD7174A101000958D97 /* dbgutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8356FC1748FEA4008C062B /* dbgutil.cpp */; };
+		8B542CD8174A101000958D97 /* denseranges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8356FE1748FEA4008C062B /* denseranges.cpp */; };
+		8B542CD9174A101000958D97 /* filestrm.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357001748FEA4008C062B /* filestrm.c */; };
+		8B542CDA174A101000958D97 /* filetools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357021748FEA4008C062B /* filetools.cpp */; };
+		8B542CDB174A101000958D97 /* flagparser.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357041748FEA4008C062B /* flagparser.c */; };
+		8B542CDC174A101000958D97 /* package.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357071748FEA4008C062B /* package.cpp */; };
+		8B542CDD174A101000958D97 /* pkg_genc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357091748FEA4008C062B /* pkg_genc.c */; };
+		8B542CDE174A101000958D97 /* pkg_gencmn.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B83570B1748FEA4008C062B /* pkg_gencmn.c */; };
+		8B542CDF174A101000958D97 /* pkg_icu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83570D1748FEA4008C062B /* pkg_icu.cpp */; };
+		8B542CE0174A101000958D97 /* pkgitems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357101748FEA4008C062B /* pkgitems.cpp */; };
+		8B542CE1174A101000958D97 /* ppucd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357111748FEA4008C062B /* ppucd.cpp */; };
+		8B542CE2174A101000958D97 /* swapimpl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357131748FEA4008C062B /* swapimpl.cpp */; };
+		8B542CE3174A101000958D97 /* toolutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357151748FEA4008C062B /* toolutil.cpp */; };
+		8B542CE4174A101000958D97 /* ucbuf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357181748FEA4008C062B /* ucbuf.c */; };
+		8B542CE5174A101000958D97 /* ucln_tu.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B83571A1748FEA4008C062B /* ucln_tu.c */; };
+		8B542CE6174A101000958D97 /* ucm.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B83571B1748FEA4008C062B /* ucm.c */; };
+		8B542CE7174A101000958D97 /* ucmstate.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B83571D1748FEA4008C062B /* ucmstate.c */; };
+		8B542CE8174A101000958D97 /* udbgutil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83571E1748FEA4008C062B /* udbgutil.cpp */; };
+		8B542CE9174A101000958D97 /* unewdata.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357201748FEA4008C062B /* unewdata.c */; };
+		8B542CEA174A101000958D97 /* uoptions.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357221748FEA4008C062B /* uoptions.c */; };
+		8B542CEB174A101000958D97 /* uparse.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357241748FEA4008C062B /* uparse.c */; };
+		8B542CEC174A101000958D97 /* writesrc.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357261748FEA4008C062B /* writesrc.c */; };
+		8B542CED174A101000958D97 /* xmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8357281748FEA4008C062B /* xmlparser.cpp */; };
 		8B8348DE1748F4C7008C062B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8348DC1748F4C7008C062B /* InfoPlist.strings */; };
 		8B8348E71748F4C7008C062B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E61748F4C7008C062B /* SenTestingKit.framework */; };
 		8B8348E91748F4C7008C062B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E81748F4C7008C062B /* UIKit.framework */; };
@@ -9117,6 +9140,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B542CD7174A101000958D97 /* dbgutil.cpp in Sources */,
+				8B542CD8174A101000958D97 /* denseranges.cpp in Sources */,
+				8B542CD9174A101000958D97 /* filestrm.c in Sources */,
+				8B542CDA174A101000958D97 /* filetools.cpp in Sources */,
+				8B542CDB174A101000958D97 /* flagparser.c in Sources */,
+				8B542CDC174A101000958D97 /* package.cpp in Sources */,
+				8B542CDD174A101000958D97 /* pkg_genc.c in Sources */,
+				8B542CDE174A101000958D97 /* pkg_gencmn.c in Sources */,
+				8B542CDF174A101000958D97 /* pkg_icu.cpp in Sources */,
+				8B542CE0174A101000958D97 /* pkgitems.cpp in Sources */,
+				8B542CE1174A101000958D97 /* ppucd.cpp in Sources */,
+				8B542CE2174A101000958D97 /* swapimpl.cpp in Sources */,
+				8B542CE3174A101000958D97 /* toolutil.cpp in Sources */,
+				8B542CE4174A101000958D97 /* ucbuf.c in Sources */,
+				8B542CE5174A101000958D97 /* ucln_tu.c in Sources */,
+				8B542CE6174A101000958D97 /* ucm.c in Sources */,
+				8B542CE7174A101000958D97 /* ucmstate.c in Sources */,
+				8B542CE8174A101000958D97 /* udbgutil.cpp in Sources */,
+				8B542CE9174A101000958D97 /* unewdata.c in Sources */,
+				8B542CEA174A101000958D97 /* uoptions.c in Sources */,
+				8B542CEB174A101000958D97 /* uparse.c in Sources */,
+				8B542CEC174A101000958D97 /* writesrc.c in Sources */,
+				8B542CED174A101000958D97 /* xmlparser.cpp in Sources */,
 				8B542C25174A025300958D97 /* LXUtilities.cpp in Sources */,
 				8B542C26174A025300958D97 /* ParagraphLayout.cpp in Sources */,
 				8B542C27174A025300958D97 /* playout.cpp in Sources */,
@@ -9701,6 +9747,7 @@
 					"U_DISABLE_RENAMING=1",
 					"U_ATTRIBUTE_DEPRECATED=",
 					"U_IO_IMPLEMENTATION=",
+					"U_TOOLUTIL_IMPLEMENTATION=",
 				);
 				HEADER_SEARCH_PATHS = (
 					icu4c/source/common,
@@ -9734,6 +9781,7 @@
 					"U_DISABLE_RENAMING=1",
 					"U_ATTRIBUTE_DEPRECATED=",
 					"U_IO_IMPLEMENTATION=",
+					"U_TOOLUTIL_IMPLEMENTATION=",
 				);
 				HEADER_SEARCH_PATHS = (
 					icu4c/source/common,
