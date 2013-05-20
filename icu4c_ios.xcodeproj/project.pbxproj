@@ -352,6 +352,94 @@
 		8B542BCA1749FEA600958D97 /* uscanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D01748FEA0008C062B /* uscanf.c */; };
 		8B542BCB1749FEA600958D97 /* ustdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D31748FEA0008C062B /* ustdio.c */; };
 		8B542BCC1749FEA600958D97 /* ustream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D41748FEA0008C062B /* ustream.cpp */; };
+		8B542BCD174A01AC00958D97 /* AlternateSubstSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D61748FEA1008C062B /* AlternateSubstSubtables.cpp */; };
+		8B542BCE174A01AC00958D97 /* AnchorTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D81748FEA1008C062B /* AnchorTables.cpp */; };
+		8B542BCF174A01AC00958D97 /* ArabicLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351DA1748FEA1008C062B /* ArabicLayoutEngine.cpp */; };
+		8B542BD0174A01AC00958D97 /* ArabicShaping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351DC1748FEA1008C062B /* ArabicShaping.cpp */; };
+		8B542BD1174A01AC00958D97 /* CanonData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351DF1748FEA1008C062B /* CanonData.cpp */; };
+		8B542BD2174A01AC00958D97 /* CanonShaping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351E01748FEA1008C062B /* CanonShaping.cpp */; };
+		8B542BD3174A01AC00958D97 /* ClassDefinitionTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351E31748FEA1008C062B /* ClassDefinitionTables.cpp */; };
+		8B542BD4174A01AC00958D97 /* ContextualGlyphInsertionProc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351E61748FEA1008C062B /* ContextualGlyphInsertionProc2.cpp */; };
+		8B542BD5174A01AC00958D97 /* ContextualGlyphSubstProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351E91748FEA1008C062B /* ContextualGlyphSubstProc.cpp */; };
+		8B542BD6174A01AC00958D97 /* ContextualGlyphSubstProc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351EB1748FEA1008C062B /* ContextualGlyphSubstProc2.cpp */; };
+		8B542BD7174A01AC00958D97 /* ContextualSubstSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351ED1748FEA1008C062B /* ContextualSubstSubtables.cpp */; };
+		8B542BD8174A01AC00958D97 /* CoverageTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351EF1748FEA1008C062B /* CoverageTables.cpp */; };
+		8B542BD9174A01AC00958D97 /* CursiveAttachmentSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351F11748FEA1008C062B /* CursiveAttachmentSubtables.cpp */; };
+		8B542BDA174A01AC00958D97 /* DeviceTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351F41748FEA1008C062B /* DeviceTables.cpp */; };
+		8B542BDB174A01AC00958D97 /* ExtensionSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351F61748FEA1008C062B /* ExtensionSubtables.cpp */; };
+		8B542BDC174A01AC00958D97 /* Features.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351F81748FEA1008C062B /* Features.cpp */; };
+		8B542BDD174A01AC00958D97 /* GDEFMarkFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351F91748FEA1008C062B /* GDEFMarkFilter.cpp */; };
+		8B542BDE174A01AC00958D97 /* GlyphDefinitionTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351FB1748FEA1008C062B /* GlyphDefinitionTables.cpp */; };
+		8B542BDF174A01AC00958D97 /* GlyphIterator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351FD1748FEA1008C062B /* GlyphIterator.cpp */; };
+		8B542BE0174A01AC00958D97 /* GlyphLookupTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351FF1748FEA1008C062B /* GlyphLookupTables.cpp */; };
+		8B542BE1174A01AC00958D97 /* GlyphPositionAdjustments.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352011748FEA1008C062B /* GlyphPositionAdjustments.cpp */; };
+		8B542BE2174A01AC00958D97 /* GlyphPositioningTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352031748FEA1008C062B /* GlyphPositioningTables.cpp */; };
+		8B542BE3174A01AC00958D97 /* GlyphPosnLookupProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352051748FEA1008C062B /* GlyphPosnLookupProc.cpp */; };
+		8B542BE4174A01AC00958D97 /* GlyphSubstitutionTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352071748FEA1008C062B /* GlyphSubstitutionTables.cpp */; };
+		8B542BE5174A01AC00958D97 /* GlyphSubstLookupProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352091748FEA1008C062B /* GlyphSubstLookupProc.cpp */; };
+		8B542BE6174A01AC00958D97 /* GXLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83520B1748FEA1008C062B /* GXLayoutEngine.cpp */; };
+		8B542BE7174A01AC00958D97 /* GXLayoutEngine2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83520D1748FEA1008C062B /* GXLayoutEngine2.cpp */; };
+		8B542BE8174A01AC00958D97 /* HangulLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83520F1748FEA1008C062B /* HangulLayoutEngine.cpp */; };
+		8B542BE9174A01AC00958D97 /* HanLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352111748FEA1008C062B /* HanLayoutEngine.cpp */; };
+		8B542BEA174A01AC00958D97 /* IndicClassTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352141748FEA1008C062B /* IndicClassTables.cpp */; };
+		8B542BEB174A01AC00958D97 /* IndicLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352151748FEA1008C062B /* IndicLayoutEngine.cpp */; };
+		8B542BEC174A01AC00958D97 /* IndicRearrangementProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352181748FEA1008C062B /* IndicRearrangementProcessor.cpp */; };
+		8B542BED174A01AC00958D97 /* IndicRearrangementProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83521A1748FEA1008C062B /* IndicRearrangementProcessor2.cpp */; };
+		8B542BEE174A01AC00958D97 /* IndicReordering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83521C1748FEA1008C062B /* IndicReordering.cpp */; };
+		8B542BEF174A01AC00958D97 /* KernTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83521E1748FEA1008C062B /* KernTable.cpp */; };
+		8B542BF0174A01AC00958D97 /* KhmerLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352201748FEA1008C062B /* KhmerLayoutEngine.cpp */; };
+		8B542BF1174A01AC00958D97 /* KhmerReordering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352221748FEA1008C062B /* KhmerReordering.cpp */; };
+		8B542BF2174A01AC00958D97 /* LayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352271748FEA1008C062B /* LayoutEngine.cpp */; };
+		8B542BF3174A01AC00958D97 /* LEFontInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83522A1748FEA1008C062B /* LEFontInstance.cpp */; };
+		8B542BF4174A01AC00958D97 /* LEGlyphStorage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83522D1748FEA1008C062B /* LEGlyphStorage.cpp */; };
+		8B542BF5174A01AC00958D97 /* LEInsertionList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83522F1748FEA1008C062B /* LEInsertionList.cpp */; };
+		8B542BF6174A01AC00958D97 /* LigatureSubstProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352361748FEA1008C062B /* LigatureSubstProc.cpp */; };
+		8B542BF7174A01AC00958D97 /* LigatureSubstProc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352381748FEA1008C062B /* LigatureSubstProc2.cpp */; };
+		8B542BF8174A01AC00958D97 /* LigatureSubstSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83523A1748FEA1008C062B /* LigatureSubstSubtables.cpp */; };
+		8B542BF9174A01AC00958D97 /* loengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83523C1748FEA1008C062B /* loengine.cpp */; };
+		8B542BFA174A01AC00958D97 /* LookupProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83523E1748FEA1008C062B /* LookupProcessor.cpp */; };
+		8B542BFB174A01AC00958D97 /* Lookups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352401748FEA1008C062B /* Lookups.cpp */; };
+		8B542BFC174A01AC00958D97 /* LookupTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352421748FEA1008C062B /* LookupTables.cpp */; };
+		8B542BFD174A01AC00958D97 /* MarkArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352451748FEA1008C062B /* MarkArrays.cpp */; };
+		8B542BFE174A01AC00958D97 /* MarkToBasePosnSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352471748FEA1008C062B /* MarkToBasePosnSubtables.cpp */; };
+		8B542BFF174A01AC00958D97 /* MarkToLigaturePosnSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352491748FEA1008C062B /* MarkToLigaturePosnSubtables.cpp */; };
+		8B542C00174A01AC00958D97 /* MarkToMarkPosnSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83524B1748FEA1008C062B /* MarkToMarkPosnSubtables.cpp */; };
+		8B542C01174A01AC00958D97 /* MirroredCharData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83524D1748FEA1008C062B /* MirroredCharData.cpp */; };
+		8B542C02174A01AC00958D97 /* MorphTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83524F1748FEA1008C062B /* MorphTables.cpp */; };
+		8B542C03174A01AC00958D97 /* MorphTables2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352511748FEA1008C062B /* MorphTables2.cpp */; };
+		8B542C04174A01AC00958D97 /* MPreFixups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352521748FEA1008C062B /* MPreFixups.cpp */; };
+		8B542C05174A01AC00958D97 /* MultipleSubstSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352541748FEA1008C062B /* MultipleSubstSubtables.cpp */; };
+		8B542C06174A01AC00958D97 /* NonContextualGlyphSubstProc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352571748FEA1008C062B /* NonContextualGlyphSubstProc.cpp */; };
+		8B542C07174A01AC00958D97 /* NonContextualGlyphSubstProc2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352591748FEA1008C062B /* NonContextualGlyphSubstProc2.cpp */; };
+		8B542C08174A01AC00958D97 /* OpenTypeLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83525B1748FEA1008C062B /* OpenTypeLayoutEngine.cpp */; };
+		8B542C09174A01AC00958D97 /* OpenTypeUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83525E1748FEA1008C062B /* OpenTypeUtilities.cpp */; };
+		8B542C0A174A01AC00958D97 /* PairPositioningSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352601748FEA1008C062B /* PairPositioningSubtables.cpp */; };
+		8B542C0B174A01AC00958D97 /* ScriptAndLanguage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352621748FEA1008C062B /* ScriptAndLanguage.cpp */; };
+		8B542C0C174A01AC00958D97 /* ScriptAndLanguageTags.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352641748FEA1008C062B /* ScriptAndLanguageTags.cpp */; };
+		8B542C0D174A01AC00958D97 /* SegmentArrayProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352661748FEA1008C062B /* SegmentArrayProcessor.cpp */; };
+		8B542C0E174A01AC00958D97 /* SegmentArrayProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352681748FEA1008C062B /* SegmentArrayProcessor2.cpp */; };
+		8B542C0F174A01AC00958D97 /* SegmentSingleProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83526A1748FEA1008C062B /* SegmentSingleProcessor.cpp */; };
+		8B542C10174A01AC00958D97 /* SegmentSingleProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83526C1748FEA1008C062B /* SegmentSingleProcessor2.cpp */; };
+		8B542C11174A01AC00958D97 /* ShapingTypeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83526E1748FEA1008C062B /* ShapingTypeData.cpp */; };
+		8B542C12174A01AC00958D97 /* SimpleArrayProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83526F1748FEA1008C062B /* SimpleArrayProcessor.cpp */; };
+		8B542C13174A01AC00958D97 /* SimpleArrayProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352711748FEA1008C062B /* SimpleArrayProcessor2.cpp */; };
+		8B542C14174A01AC00958D97 /* SinglePositioningSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352731748FEA1008C062B /* SinglePositioningSubtables.cpp */; };
+		8B542C15174A01AC00958D97 /* SingleSubstitutionSubtables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352751748FEA1008C062B /* SingleSubstitutionSubtables.cpp */; };
+		8B542C16174A01AC00958D97 /* SingleTableProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352771748FEA1008C062B /* SingleTableProcessor.cpp */; };
+		8B542C17174A01AC00958D97 /* SingleTableProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352791748FEA1008C062B /* SingleTableProcessor2.cpp */; };
+		8B542C18174A01AC00958D97 /* StateTableProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83527B1748FEA1008C062B /* StateTableProcessor.cpp */; };
+		8B542C19174A01AC00958D97 /* StateTableProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83527D1748FEA1008C062B /* StateTableProcessor2.cpp */; };
+		8B542C1A174A01AC00958D97 /* SubstitutionLookups.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352801748FEA1008C062B /* SubstitutionLookups.cpp */; };
+		8B542C1B174A01AC00958D97 /* SubtableProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352821748FEA1008C062B /* SubtableProcessor.cpp */; };
+		8B542C1C174A01AC00958D97 /* SubtableProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352841748FEA1008C062B /* SubtableProcessor2.cpp */; };
+		8B542C1D174A01AC00958D97 /* ThaiLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352861748FEA1008C062B /* ThaiLayoutEngine.cpp */; };
+		8B542C1E174A01AC00958D97 /* ThaiShaping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352881748FEA1008C062B /* ThaiShaping.cpp */; };
+		8B542C1F174A01AC00958D97 /* ThaiStateTables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83528A1748FEA1008C062B /* ThaiStateTables.cpp */; };
+		8B542C20174A01AC00958D97 /* TibetanLayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83528B1748FEA1008C062B /* TibetanLayoutEngine.cpp */; };
+		8B542C21174A01AC00958D97 /* TibetanReordering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83528D1748FEA1008C062B /* TibetanReordering.cpp */; };
+		8B542C22174A01AC00958D97 /* TrimmedArrayProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83528F1748FEA1008C062B /* TrimmedArrayProcessor.cpp */; };
+		8B542C23174A01AC00958D97 /* TrimmedArrayProcessor2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352911748FEA1008C062B /* TrimmedArrayProcessor2.cpp */; };
+		8B542C24174A01AC00958D97 /* ValueRecords.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8352931748FEA1008C062B /* ValueRecords.cpp */; };
 		8B8348DE1748F4C7008C062B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8348DC1748F4C7008C062B /* InfoPlist.strings */; };
 		8B8348E71748F4C7008C062B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E61748F4C7008C062B /* SenTestingKit.framework */; };
 		8B8348E91748F4C7008C062B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E81748F4C7008C062B /* UIKit.framework */; };
@@ -8678,6 +8766,94 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B542BCD174A01AC00958D97 /* AlternateSubstSubtables.cpp in Sources */,
+				8B542BCE174A01AC00958D97 /* AnchorTables.cpp in Sources */,
+				8B542BCF174A01AC00958D97 /* ArabicLayoutEngine.cpp in Sources */,
+				8B542BD0174A01AC00958D97 /* ArabicShaping.cpp in Sources */,
+				8B542BD1174A01AC00958D97 /* CanonData.cpp in Sources */,
+				8B542BD2174A01AC00958D97 /* CanonShaping.cpp in Sources */,
+				8B542BD3174A01AC00958D97 /* ClassDefinitionTables.cpp in Sources */,
+				8B542BD4174A01AC00958D97 /* ContextualGlyphInsertionProc2.cpp in Sources */,
+				8B542BD5174A01AC00958D97 /* ContextualGlyphSubstProc.cpp in Sources */,
+				8B542BD6174A01AC00958D97 /* ContextualGlyphSubstProc2.cpp in Sources */,
+				8B542BD7174A01AC00958D97 /* ContextualSubstSubtables.cpp in Sources */,
+				8B542BD8174A01AC00958D97 /* CoverageTables.cpp in Sources */,
+				8B542BD9174A01AC00958D97 /* CursiveAttachmentSubtables.cpp in Sources */,
+				8B542BDA174A01AC00958D97 /* DeviceTables.cpp in Sources */,
+				8B542BDB174A01AC00958D97 /* ExtensionSubtables.cpp in Sources */,
+				8B542BDC174A01AC00958D97 /* Features.cpp in Sources */,
+				8B542BDD174A01AC00958D97 /* GDEFMarkFilter.cpp in Sources */,
+				8B542BDE174A01AC00958D97 /* GlyphDefinitionTables.cpp in Sources */,
+				8B542BDF174A01AC00958D97 /* GlyphIterator.cpp in Sources */,
+				8B542BE0174A01AC00958D97 /* GlyphLookupTables.cpp in Sources */,
+				8B542BE1174A01AC00958D97 /* GlyphPositionAdjustments.cpp in Sources */,
+				8B542BE2174A01AC00958D97 /* GlyphPositioningTables.cpp in Sources */,
+				8B542BE3174A01AC00958D97 /* GlyphPosnLookupProc.cpp in Sources */,
+				8B542BE4174A01AC00958D97 /* GlyphSubstitutionTables.cpp in Sources */,
+				8B542BE5174A01AC00958D97 /* GlyphSubstLookupProc.cpp in Sources */,
+				8B542BE6174A01AC00958D97 /* GXLayoutEngine.cpp in Sources */,
+				8B542BE7174A01AC00958D97 /* GXLayoutEngine2.cpp in Sources */,
+				8B542BE8174A01AC00958D97 /* HangulLayoutEngine.cpp in Sources */,
+				8B542BE9174A01AC00958D97 /* HanLayoutEngine.cpp in Sources */,
+				8B542BEA174A01AC00958D97 /* IndicClassTables.cpp in Sources */,
+				8B542BEB174A01AC00958D97 /* IndicLayoutEngine.cpp in Sources */,
+				8B542BEC174A01AC00958D97 /* IndicRearrangementProcessor.cpp in Sources */,
+				8B542BED174A01AC00958D97 /* IndicRearrangementProcessor2.cpp in Sources */,
+				8B542BEE174A01AC00958D97 /* IndicReordering.cpp in Sources */,
+				8B542BEF174A01AC00958D97 /* KernTable.cpp in Sources */,
+				8B542BF0174A01AC00958D97 /* KhmerLayoutEngine.cpp in Sources */,
+				8B542BF1174A01AC00958D97 /* KhmerReordering.cpp in Sources */,
+				8B542BF2174A01AC00958D97 /* LayoutEngine.cpp in Sources */,
+				8B542BF3174A01AC00958D97 /* LEFontInstance.cpp in Sources */,
+				8B542BF4174A01AC00958D97 /* LEGlyphStorage.cpp in Sources */,
+				8B542BF5174A01AC00958D97 /* LEInsertionList.cpp in Sources */,
+				8B542BF6174A01AC00958D97 /* LigatureSubstProc.cpp in Sources */,
+				8B542BF7174A01AC00958D97 /* LigatureSubstProc2.cpp in Sources */,
+				8B542BF8174A01AC00958D97 /* LigatureSubstSubtables.cpp in Sources */,
+				8B542BF9174A01AC00958D97 /* loengine.cpp in Sources */,
+				8B542BFA174A01AC00958D97 /* LookupProcessor.cpp in Sources */,
+				8B542BFB174A01AC00958D97 /* Lookups.cpp in Sources */,
+				8B542BFC174A01AC00958D97 /* LookupTables.cpp in Sources */,
+				8B542BFD174A01AC00958D97 /* MarkArrays.cpp in Sources */,
+				8B542BFE174A01AC00958D97 /* MarkToBasePosnSubtables.cpp in Sources */,
+				8B542BFF174A01AC00958D97 /* MarkToLigaturePosnSubtables.cpp in Sources */,
+				8B542C00174A01AC00958D97 /* MarkToMarkPosnSubtables.cpp in Sources */,
+				8B542C01174A01AC00958D97 /* MirroredCharData.cpp in Sources */,
+				8B542C02174A01AC00958D97 /* MorphTables.cpp in Sources */,
+				8B542C03174A01AC00958D97 /* MorphTables2.cpp in Sources */,
+				8B542C04174A01AC00958D97 /* MPreFixups.cpp in Sources */,
+				8B542C05174A01AC00958D97 /* MultipleSubstSubtables.cpp in Sources */,
+				8B542C06174A01AC00958D97 /* NonContextualGlyphSubstProc.cpp in Sources */,
+				8B542C07174A01AC00958D97 /* NonContextualGlyphSubstProc2.cpp in Sources */,
+				8B542C08174A01AC00958D97 /* OpenTypeLayoutEngine.cpp in Sources */,
+				8B542C09174A01AC00958D97 /* OpenTypeUtilities.cpp in Sources */,
+				8B542C0A174A01AC00958D97 /* PairPositioningSubtables.cpp in Sources */,
+				8B542C0B174A01AC00958D97 /* ScriptAndLanguage.cpp in Sources */,
+				8B542C0C174A01AC00958D97 /* ScriptAndLanguageTags.cpp in Sources */,
+				8B542C0D174A01AC00958D97 /* SegmentArrayProcessor.cpp in Sources */,
+				8B542C0E174A01AC00958D97 /* SegmentArrayProcessor2.cpp in Sources */,
+				8B542C0F174A01AC00958D97 /* SegmentSingleProcessor.cpp in Sources */,
+				8B542C10174A01AC00958D97 /* SegmentSingleProcessor2.cpp in Sources */,
+				8B542C11174A01AC00958D97 /* ShapingTypeData.cpp in Sources */,
+				8B542C12174A01AC00958D97 /* SimpleArrayProcessor.cpp in Sources */,
+				8B542C13174A01AC00958D97 /* SimpleArrayProcessor2.cpp in Sources */,
+				8B542C14174A01AC00958D97 /* SinglePositioningSubtables.cpp in Sources */,
+				8B542C15174A01AC00958D97 /* SingleSubstitutionSubtables.cpp in Sources */,
+				8B542C16174A01AC00958D97 /* SingleTableProcessor.cpp in Sources */,
+				8B542C17174A01AC00958D97 /* SingleTableProcessor2.cpp in Sources */,
+				8B542C18174A01AC00958D97 /* StateTableProcessor.cpp in Sources */,
+				8B542C19174A01AC00958D97 /* StateTableProcessor2.cpp in Sources */,
+				8B542C1A174A01AC00958D97 /* SubstitutionLookups.cpp in Sources */,
+				8B542C1B174A01AC00958D97 /* SubtableProcessor.cpp in Sources */,
+				8B542C1C174A01AC00958D97 /* SubtableProcessor2.cpp in Sources */,
+				8B542C1D174A01AC00958D97 /* ThaiLayoutEngine.cpp in Sources */,
+				8B542C1E174A01AC00958D97 /* ThaiShaping.cpp in Sources */,
+				8B542C1F174A01AC00958D97 /* ThaiStateTables.cpp in Sources */,
+				8B542C20174A01AC00958D97 /* TibetanLayoutEngine.cpp in Sources */,
+				8B542C21174A01AC00958D97 /* TibetanReordering.cpp in Sources */,
+				8B542C22174A01AC00958D97 /* TrimmedArrayProcessor.cpp in Sources */,
+				8B542C23174A01AC00958D97 /* TrimmedArrayProcessor2.cpp in Sources */,
+				8B542C24174A01AC00958D97 /* ValueRecords.cpp in Sources */,
 				8B542BC31749FEA600958D97 /* sprintf.c in Sources */,
 				8B542BC41749FEA600958D97 /* sscanf.c in Sources */,
 				8B542BC51749FEA600958D97 /* ucln_io.c in Sources */,
