@@ -341,6 +341,17 @@
 		8B542BBF174956FC00958D97 /* uni2name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B83514C1748FEA0008C062B /* uni2name.cpp */; };
 		8B542BC0174956FC00958D97 /* utrans.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351A91748FEA0008C062B /* utrans.cpp */; };
 		8B542BC11749570D00958D97 /* bocsu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8350681748FE9F008C062B /* bocsu.cpp */; };
+		8B542BC21749FE6900958D97 /* locbund.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351BF1748FEA0008C062B /* locbund.cpp */; };
+		8B542BC31749FEA600958D97 /* sprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351C21748FEA0008C062B /* sprintf.c */; };
+		8B542BC41749FEA600958D97 /* sscanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351C31748FEA0008C062B /* sscanf.c */; };
+		8B542BC51749FEA600958D97 /* ucln_io.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351C41748FEA0008C062B /* ucln_io.c */; };
+		8B542BC61749FEA600958D97 /* ufile.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351C61748FEA0008C062B /* ufile.c */; };
+		8B542BC71749FEA600958D97 /* ufmt_cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351C81748FEA0008C062B /* ufmt_cmn.c */; };
+		8B542BC81749FEA600958D97 /* uprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351CD1748FEA0008C062B /* uprintf.c */; };
+		8B542BC91749FEA600958D97 /* uprntf_p.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351CF1748FEA0008C062B /* uprntf_p.c */; };
+		8B542BCA1749FEA600958D97 /* uscanf.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D01748FEA0008C062B /* uscanf.c */; };
+		8B542BCB1749FEA600958D97 /* ustdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D31748FEA0008C062B /* ustdio.c */; };
+		8B542BCC1749FEA600958D97 /* ustream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B8351D41748FEA0008C062B /* ustream.cpp */; };
 		8B8348DE1748F4C7008C062B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B8348DC1748F4C7008C062B /* InfoPlist.strings */; };
 		8B8348E71748F4C7008C062B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E61748F4C7008C062B /* SenTestingKit.framework */; };
 		8B8348E91748F4C7008C062B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8348E81748F4C7008C062B /* UIKit.framework */; };
@@ -8667,6 +8678,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B542BC31749FEA600958D97 /* sprintf.c in Sources */,
+				8B542BC41749FEA600958D97 /* sscanf.c in Sources */,
+				8B542BC51749FEA600958D97 /* ucln_io.c in Sources */,
+				8B542BC61749FEA600958D97 /* ufile.c in Sources */,
+				8B542BC71749FEA600958D97 /* ufmt_cmn.c in Sources */,
+				8B542BC81749FEA600958D97 /* uprintf.c in Sources */,
+				8B542BC91749FEA600958D97 /* uprntf_p.c in Sources */,
+				8B542BCA1749FEA600958D97 /* uscanf.c in Sources */,
+				8B542BCB1749FEA600958D97 /* ustdio.c in Sources */,
+				8B542BCC1749FEA600958D97 /* ustream.cpp in Sources */,
+				8B542BC21749FE6900958D97 /* locbund.cpp in Sources */,
 				8B542BC11749570D00958D97 /* bocsu.cpp in Sources */,
 				8B542BAB174956FC00958D97 /* funcrepl.cpp in Sources */,
 				8B542BAC174956FC00958D97 /* name2uni.cpp in Sources */,
@@ -9146,6 +9168,7 @@
 					"U_PLATFORM_IMPLEMENTS_POSIX=1",
 					"U_DISABLE_RENAMING=1",
 					"U_ATTRIBUTE_DEPRECATED=",
+					"U_IO_IMPLEMENTATION=",
 				);
 				HEADER_SEARCH_PATHS = (
 					icu4c/source/common,
@@ -9176,6 +9199,7 @@
 					"U_PLATFORM_IMPLEMENTS_POSIX=1",
 					"U_DISABLE_RENAMING=1",
 					"U_ATTRIBUTE_DEPRECATED=",
+					"U_IO_IMPLEMENTATION=",
 				);
 				HEADER_SEARCH_PATHS = (
 					icu4c/source/common,
